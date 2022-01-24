@@ -1,12 +1,10 @@
-Read guide from README.md 
+Read guide from grammar.md 
 
-Windows - main.exe (64-bit)
-Linux   - main     (64-bit)
 Usage:
-    ./main.exe -f <filename>
+    ./checker-win.exe -f <filename>
 
 Example
-    ./main.exe -f request.bnf
+    ./checker-win.exe -f request.bnf
 
 input:
 GET / 200

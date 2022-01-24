@@ -1,2 +1,8 @@
-S = A ;
-A = "hello world" ;
+S = Method sp Url sp StatusOk;
+Method = any(0x20);
+sp = 0x20 ;
+Url = any(0x20);
+StatusOk = integer;
+integer = digit digits;
+digit = 0x30-39 ;
+digits = { digit };
